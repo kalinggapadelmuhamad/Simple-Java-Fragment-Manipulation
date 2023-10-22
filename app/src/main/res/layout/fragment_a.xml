@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="@android:color/holo_orange_light">
+
+        <Button
+            android:id="@+id/show_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Fragment" />
+
+        <Button
+            android:id="@+id/switch_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch Fragment" />
+
+        <Button
+            android:id="@+id/close_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close Fragment" />
+
+    </LinearLayout>
+
+</FrameLayout>
